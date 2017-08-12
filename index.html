@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <!-- Add normalize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <!-- Fonts from Google -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="logo"></div>
+  <header class="header-bg"></header>
+   <div class="page">
+      
+       <nav id="burger">
+           <ul class="menu">
+               <li><a href="index.html" class="link"><span>Главная</span></a></li>
+               <li><a href="education.html"><span>Учеба</span></a></li>
+               <li><a href="career.html"><span>Карьера</span></a></li>
+               <li><a href="contacts.html"><span>Контакты</span></a></li>
+           </ul>
+       </nav>
+       <div class="main-content">
+          
+           <div class="info flex-item">
+               <div class="me">Нурдинов</div>
+               <div class="me">Баатыр</div>
+               <div class="me">Нурдинович</div>
+           </div>
+           
+           <div class="skills flex-item">
+               <label for="first-skill"><input type="checkbox" name="" id="first-skill" class="name"></label>
+               <label for="second-skill"><input type="checkbox" name="" id="second-skill" class="name"></label>
+               <label for="third-skill"><input type="checkbox" name="" id="third-skill" class="name"></label>
+               <label for="fourth-skill"><input type="checkbox" name="" id="fourth-skill" class="name"></label>
+               <label for="fifth-skill"><input type="checkbox" name="" id="fifth-skill" class="name"></label>
+           </div>
+           
+           <div class="about-me flex-item">
+              <div class="topic">
+                   <h2 class="title">Немного о себе</h2>
+                   <p class="description">Всем привет. Меня зовут Баатыр и мне 22 года. Я начинающий веб разработчик.<br>Я киноман и геймер. <br>
+                       Любимая игра - Дота, любимый фильм - Гладиатор. <br>
+                       В будущем планирую стать полноценным фулстек разработчиком, <br> у меня есть желание профессианально освоить веб дизайн и бэкенд разработку.</p>
+                </div>
+           </div>
+           
+           <div class="flex-item">
+              <img id="myImg" src="img/avatar2.jpg" alt="Hello! Here I'am" width="200" height="210">      
+                <div id="myModal" class="modal">
+                  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
+           </div>
+           
+       </div>
+   </div>
+       <footer class="footer">
+          <div class="footer-wrapper">
+               <div class="contacts">
+                   <h3><b>Контакты:</b></h3>
+                   <p>+996 555 050505</p>
+                   <p>your_email@gmail.com</p>
+                   <p>г.Бишкек, ул.Строителей 37</p>
+               </div>
+               <div class="social">
+                      <h3><b>Мы в социальных сетях:</b></h3>
+                        <div class="social-block">
+                           <div class="social-icons"></div>
+                           <div class="social-icons"></div>
+                           <div class="social-icons"></div>
+                        </div>
+                   </div>
+            </div>
+       </footer>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,3 +1,6 @@
+@import url(responsive.css);
+@import url(modal.css);
+
 *,
 *:before,
 *:after {
